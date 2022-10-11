@@ -1,6 +1,7 @@
 import React from "react";
 import {ComponentMeta, ComponentStory} from '@storybook/react'
 import {AbBotao, AbBotaoProps} from '../src/components/AbBotao'
+import {TipoBotao} from '../src/components/AbBotao'
 
 export default {
     title: 'Components/AbBotao',
@@ -14,11 +15,11 @@ export const Primario = Template.bind({})
 
 Primario.args = {
     texto: 'Ab Botão Primário',
-    tipo: 'primario'
+    tipo: TipoBotao.PRIMARIO
 } as AbBotaoProps
 
 export const Secundario = Template.bind({})
 Secundario.args = {
     texto: 'Ab Botão Secundário',
-    tipo: 'secundario'
+    tipo: TipoBotao.SECUNDARIO
 } as AbBotaoProps
