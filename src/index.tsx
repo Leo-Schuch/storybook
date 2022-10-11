@@ -14,4 +14,5 @@ export * from './components/AbBotao';
 export * from './components/AbGrupoOpcoes';
 export * from './components/AbTag';
 export * from './components/AbCampoTexto';
+export * from './components/AbInputQuantidade'
 
